@@ -1,0 +1,176 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell Computer Hardware, Softwares and Electronics Gadgets",
+        "We have Computer Hardware, Softwares and Electronics Gadgets"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Cash?",
+        "Can I pay with UPI?",
+        "Are you cash only?",
+        "payment options"
+      ],
+      "responses": [
+        "We accept RuPay, VISA, MasterCard, UPI, Net Banking",
+        "We accept most major credit cards, and UPI",
+        "We accepts All type of Cards, UPI and Cash."
+      ]
+    },
+    {
+      "tag":"Cash",
+      "patterns":[
+        "Do you accept Cash?",
+        "Can I pay with Cash at the time of delivery?",
+        "COD is available ?"
+      ],
+      "responses":[
+        "Yes you can pay cash at the time of  Delivery "
+      ]
+    },
+    {
+      "tag":"discount",
+      "patterns":[
+        "Can I get student discount ?",
+        "what is the percentage of student discount ?",
+        "Is student discount available",
+        "Can I get student discount ?",
+        "discount"
+      ],
+      "responses":[
+        "We provide 12% Student discount (for more details please mail us 'onlinestore discount@gmail.com')"
+      ]
+    },
+    {
+      "tag":"complain",
+      "patterns":[
+        "I recived a damage product today how to complain ",
+        "how to complain ?"
+      ],
+      "responses":[
+        "If you have any complain reguarding our survices please mail us 'onlinestore complain@gmail.com'"
+      ]
+    },
+    {
+      "tag":"view",
+      "patterns":[
+        "I cannot view other product",
+        "I cannot view"
+      ],
+      "responses":[
+        "We are sorry for the inconvenience, Our Surver is currently under maintanance, it will be available in a short while."
+      ]
+    },
+    {
+      "tag":"return",
+      "patterns":[
+        "I want to return my product ",
+        "can I return product after useing it ",
+        "I have used the product 1 time can I return it",
+        "I have used the product one time can I return it",
+        "can I return product after 10 days",
+        "What is your return policy"
+      ],
+      "responses":[
+        "We have return policy of 7 days from the day of delivery, and we don't take any used product"
+      ]
+    },
+    {
+      "tag":"purchase",
+      "patterns":[
+        "I cannot purchase the headphone ",
+        "I cannot purchase the laptop ",
+        "I cannot purchase the monitor ",
+        "I cannot purchase the mouse ",
+        "I cannot purchase the cpu ",
+        "I cannot purchase the keybord ",
+        "I cannot purchase the speakers "
+      ],
+      "responses":[
+        "We are sorry for the inconvenience, Our Surver is currently under maintanance, it will be available in a short while."
+      ]
+    },
+    {
+      "tag":"didnot recive",
+      "patterns":[
+        "I purchased my headphone but did not recived it ",
+        "I purchased my laptop but did not recived it ",
+        "I purchased my monitor but did not recived it ",
+        "I purchased my mouse but did not recived it ",
+        "I purchased my keybord but did not recived it ",
+        "I purchased my cpu but did not recived it ",
+        "I purchased my spaker but did not recived it "
+      ],
+      "responses":[
+        "I am sorry to hear that, please write a note, and mail to our official mail reguarding not recived product, and please mention the product code  "
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "Delivery"
+      ],
+      "responses": [
+        "Within 14 days from the day of purchase",
+        "Shipping takes 2-3 days and you will recive product within 14 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "How many programmers does it take to change a light bulb? None because it is a hardware issue",
+        " Why did the computer wear glasses?: To improve its web sight.",
+        " Why do apps need insurance?: They keep crashing.",
+        "How does a computer get drunk?: By taking screenshots."
+      ]
+    }
+  ]
+}

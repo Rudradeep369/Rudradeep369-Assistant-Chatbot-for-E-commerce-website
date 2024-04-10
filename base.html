@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chatbot</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .navbar {
+    width: 100%;
+    /* background-color: rgb(9, 135, 185); */
+    overflow: auto;
+  }
+
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background-color: rgb(194, 214, 208);
+  }
+
+  /* .active {
+  background-color: #04AA6D;
+} */
+
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+</style>
+
+<body>
+
+  <div class="navbar">
+    <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+    <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+    <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+    <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+  </div>
+
+
+
+
+
+
+  <div class="container">
+    <div class="chatbox">
+      <div class="chatbox__support">
+        <div class="chatbox__header">
+          <div class="chatbox__image--header">
+            <img src="tinywow_avator_13093551.png" alt="image">
+          </div>
+          <div class="chatbox__content--header">
+            <h4 class="chatbox__heading--header">Chat support</h4>
+            <span class="chatbox__description--header">Hi. My name is Sam. How can I help you?
+    
+          </div>
+
+        </div>
+        <div class="chatbox__messages">
+          <div></div>
+        </div>
+        <div class="chatbox__footer">
+          <input type="text" placeholder="Write a message...">
+          <button class="chatbox__send--footer send__button"><i class="fa-solid fa-paper-plane fa-xl" style="color: white;"></i></button>
+          <!-- toggle switch -->
+          <label class="toggle">
+            <input type="checkbox" checked>
+            <span class="slider"></span>
+            <span class="labels" data-on="ON" data-off="OFF">
+          </label>
+        </div>
+        
+          
+      </div>
+      <div class="chatbox__button">
+        <button><i class="fa-solid fa-comment fa-3x" style="color: rgb(17, 100, 179);"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+
+</body>
+
+</html>
