@@ -1,4 +1,4 @@
-#Rudradeep369-Assistant-Chatbot-for-E-commerce-website
+#Assistant-Chatbot-for-E-commerce-website
 
 
 ## Project Description
