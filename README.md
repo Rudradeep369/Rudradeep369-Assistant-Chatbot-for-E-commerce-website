@@ -1,3 +1,5 @@
 # Rudradeep369-Assistant-Chatbot-for-E-commerce-website
 
-#hello
+## Project Description
+This is an Assistant Chatbot for an E-commerce website designed to solve purchase-related and delivery-related problems. It aims to provide assistance in various aspects of the shopping process, including product inquiries, order tracking, and resolving delivery issues.
+Additionally, this chatbot will communicate with user through text along with voice .
